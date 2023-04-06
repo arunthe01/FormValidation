@@ -1,0 +1,64 @@
+form{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* width: 300px; */
+  /* height: 70vh; */
+}
+
+input{
+  width:200px;
+  border-radius: 25px;
+  height: 20px;
+  margin: 10px;
+  outline: none;
+  padding: 15px;
+  border: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 20px rgb(123, 123, 123);
+}
+
+::placeholder{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.App{
+  width:200px;
+  /* height: fit-content; */
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20vh;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  border-radius: 30px;
+  align-items: center;
+  box-shadow: 0px 0px 50px rgb(0, 0, 0);
+  /* margin: auto; */
+  /* background-color:rgb(120, 120, 120); */
+  background:linear-gradient(rgb(255, 255, 255),rgb(238, 229, 105));
+}
+
+button{
+  padding: 10px;
+  text-align: left;
+  /* position: absolute; */
+  background-color: rgb(255, 255, 255);
+  color: rgb(79, 79, 79);
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 15px rgb(123, 123, 123);
+  
+}
+body{
+  background-image: url('./images/bg.jpg') ;
+  /* object-fit: contain; */
+  background-position: 50% 80%;
+}
+button:hover{
+  background-color: grey;
+  color: white;
+}
